@@ -1,0 +1,38 @@
+.Dasboard-data-text{
+    font-style: normal;
+    font-weight: bold;
+    color: grey;
+}
+
+.Dashboard-headline{
+    font-family: overpass;
+    font-size: 28px;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Responsive styles for small devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .Dasboard-data-text{
+        font-size: 12px;
+    }
+    .Dashboard-headline{
+        font-size: 22px;
+    }
+    .dashboard-button{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .Dasboard-data-text{
+        font-size: 14px;
+    }
+    .Dashboard-headline{
+        font-size: 24px;
+    }
+    .dashboard-button{
+        font-size: 15px;
+    }
+}
+

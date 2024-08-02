@@ -1,0 +1,127 @@
+
+.sidebar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: 100vh;
+    width: 240px;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-link:hover {
+    background-color: #e9ecef;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+  }
+  
+
+  .dashboard-link {
+    color: #007bff; 
+  }
+  
+  .leaderboard-link {
+    color: #e83e8c; 
+  }
+  
+  .analytics-link {
+    color: #28a745; 
+  }
+  
+  .createMcq-link {
+    color: #17a2b8; 
+  }
+  
+  .review-link {
+    color: #ffc107; 
+  }
+  
+  .home-link {
+    color: #6c757d; 
+  }
+  
+
+  .nav-link.active, .nav-link:active {
+    background-color: #ced4da;
+    color: #212529;
+  }
+
+  .content {
+    margin-left: 230px; 
+    padding: 20px;
+  }
+  
+  .profile-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .profile-username {
+    margin-top: 8px;
+    text-align: center;
+  }
+
+
+  /* Responsive styles for small devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 160px; 
+    top: 15px; 
+    left: 3px; 
+  }
+
+  .sidebar-icon {
+    margin-right: 8px; 
+  }
+  .dashboard-link, .analytics-link, .leaderboard-link, .review-link, .home-link, .createMcq-link{
+    font-size: 13px;
+  }
+
+  .content {
+    margin-left: 150px; 
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sidebar {
+    width: 200px; 
+    top: 15px; 
+    left: 5px; 
+  }
+
+  .sidebar-icon {
+    margin-right: 8px; 
+  }
+  .dashboard-link, .analytics-link, .leaderboard-link, .review-link, .home-link, .createMcq-link{
+    font-size: 15px;
+  }
+
+  .content {
+    margin-left: 200px; 
+    padding: 20px;
+  }
+}
+
+

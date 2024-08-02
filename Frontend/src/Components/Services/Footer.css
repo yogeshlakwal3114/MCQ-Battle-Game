@@ -1,0 +1,19 @@
+.footer {
+    background: linear-gradient(to right, #3f9fda, #1f3b4d);
+    padding: 20px 0;
+    color: white
+  }
+  
+  .footer h5 {
+    font-weight: bold;
+  }
+  
+  #back-to-top {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer{
+      padding-left: 50px;
+    }
+  }

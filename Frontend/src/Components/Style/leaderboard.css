@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .th-data{
+        font-size: 11px;
+    }
+    
+    .td-data{
+        font-size: 11px;
+    }
+    .button-container{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .th-data{
+        font-size: 13px;
+    }
+    
+    .td-data{
+        font-size: 12px;
+    }
+    .button-container{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,24 @@
+.quiz-container {
+    background: linear-gradient(to left, #1f3b4d, #3f9fda);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .list-group-item {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .list-group-item.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #back-to-top {
+    color: white;
+    text-decoration: underline;
+  }
+  

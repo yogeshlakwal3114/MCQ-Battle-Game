@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  /* .sidebar {
+    width: 200px;
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 600px;
+  } */
+  
+  .sidebar .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #e9ecef;
+  }
+  
+  .sidebar .nav-link .fa {
+    margin-right: 10px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .circle-chart {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .performance-breakdown p,
+  .play-mode button {
+    margin: 10px 0;
+  }
+  

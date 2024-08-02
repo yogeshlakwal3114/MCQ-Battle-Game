@@ -1,0 +1,144 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+.home-wrapper {
+    background-color: #f5f5f5; 
+    padding-bottom: 40px; 
+  }
+  
+  .home-container {
+    background: linear-gradient(to right, #1f3b4d, #3f9fda); 
+    color: white;
+    padding: 0px 20px 0px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .text-section {
+    text-align: left;
+    padding-left: 8rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .text-section h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    animation: fade-in-out 4s infinite;
+  }
+  
+  .text-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .play-button {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 15px;
+    margin-right: 35px;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+  }
+  
+  .quiz-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-out; 
+  }
+  
+  .quiz-image:hover {
+    transform: scale(1.1); 
+  }
+  
+  @keyframes fade-in-out {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+
+.typing-container {
+  position: relative;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem; 
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid rgba(255, 255, 255, 0.75);
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.typing-container.hidden {
+  border-right: none;
+  animation: none;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: rgba(255, 255, 255, 0.75); }
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .text-section {
+    padding-left: 0.5rem;
+  }
+
+  .text-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .text-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .play-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+  .typing-container{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .text-section {
+    padding-left: 3rem;
+  }
+
+  .text-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .text-section p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .play-button {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+  }
+  .typing-container{
+    font-size: 3rem;
+  }
+  .quiz-image {
+    max-width: 70%;
+    height: auto;
+    transition: transform 0.3s ease-out; 
+  }
+}

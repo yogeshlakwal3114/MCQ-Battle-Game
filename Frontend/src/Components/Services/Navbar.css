@@ -1,0 +1,63 @@
+.custom-navbar {
+    background-color: #11354c;
+    padding: 10px 20px; 
+  }
+  
+  /* .company-name {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.5rem;
+  } */
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-right: auto; 
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .nav-links .nav-link {
+    color: white !important;
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+  
+  .nav-links .nav-link:hover {
+    color: #007bff !important;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 15px;
+    margin-left: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Responsive styles */
+@media (max-width: 992px) {
+    .navbar-collapse {
+      padding: 10px;
+    }
+    
+    .nav-links .nav-link {
+      margin-right: 0;
+      padding: 10px 0;
+      text-align: center;
+    }
+    
+    .login-button {
+      margin: 10px 0 0 0;
+      width: 100%;
+    }
+  }
+  
